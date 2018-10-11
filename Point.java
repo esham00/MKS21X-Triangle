@@ -17,10 +17,13 @@ public class Point {
   public double distanceTo(Point p) {
     return Math.sqrt(Math.pow((this.x - p.x), 2) + Math.pow((this.y - p.y), 2));
   }
-  public double distance(Point k, Point p) {
+  public static double distance(Point k, Point p) {
     return Math.sqrt(Math.pow((k.x - p.x), 2) + Math.pow((k.y - p.y), 2));
   }
   public String toString() {
     return "(" + x + "," + y + ")";
+  }
+  public Point copy() {
+    return new Point (this);
   }
 }
