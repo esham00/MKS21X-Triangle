@@ -24,7 +24,7 @@ public class Triangle {
       return v3.copy();
     }
     else {
-      return v1;
+      return null;
     }
   }
   public void setVertex(int index, Point newP) {

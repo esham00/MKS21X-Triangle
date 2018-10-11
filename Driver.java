@@ -16,6 +16,7 @@ public class Driver {
     //System.out.println(emotions.getVertex(0));
     System.out.println(emotions.getVertex(1));
     System.out.println(emotions.getVertex(2));
+    System.out.println(emotions.getVertex(3));
     emotions.setVertex(0, work.getVertex(0));
     System.out.println(emotions);
   }
